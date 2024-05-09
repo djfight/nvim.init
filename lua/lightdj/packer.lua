@@ -63,16 +63,9 @@ return require("packer").startup(function(use)
 		  {"saadparwaiz1/cmp_luasnip"},
 		  {"hrsh7th/cmp-nvim-lsp"},
 		  {"hrsh7th/cmp-nvim-lua"},
-
-		  -- Snippets
-		  {"L3MON4D3/LuaSnip"},
-		  {"rafamadriz/friendly-snippets"},
 	  }
   }
 
-  use("folke/zen-mode.nvim")
-  use("github/copilot.vim")
-  use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
 
 end)
